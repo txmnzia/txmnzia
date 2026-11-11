@@ -1,8 +1,8 @@
 # Hi, I'm Sam
 
-I'm a product manager working on data and machine learning products.
+I'm a lead product manager working on data and AI/LM products.
 
-In my free time I build apps for problems I run into myself. I run each one like a product team made of AI agents: they help me research the problem, design the screens, collect and clean the data, write and test the code, and ship it. I set the direction, make the calls and check that what comes out is right.
+In my free time I build apps for problems I run into myself. I run each one like a product team made of agents: they help me research the problem, brainstorm solutions, design the UX, collect and process the data, write the code, test the quality, and ship. I set the direction, coordinate the different workstreams and ensure that the solution is right.
 
 Everything is live at [txmnzia.github.io](https://txmnzia.github.io).
 
@@ -10,13 +10,13 @@ Everything is live at [txmnzia.github.io](https://txmnzia.github.io).
 
 | App | The problem | What I did |
 |---|---|---|
-| [Pilzdex](https://txmnzia.github.io/pilz-pokedex/) | Mushroom picking is risky, and I had no simple way to identify and keep track of what I found in nature. | A field journal where you snap a photo and get an identification, even offline. I built a golden dataset of 3,500 photos the models had never seen and compared 4 image recognition models on precision, recall and safety. The old one called 1 in 3 deadly mushrooms edible, so I replaced it. |
-| [Pilzmap](https://txmnzia.github.io/pilzmap/) | Nobody shares their mushroom spots, so every trip into the forest was a gamble. | A map of where the trees, soil and water suit each species, built with a data pipeline over public maps and validated against 27,000 real sightings. The textbook rules turned out to be wrong for Brandenburg, so I corrected them with the data. Now I only go where the odds are high. |
-| [Flavour Pairing](https://txmnzia.github.io/flavour-pairing) | I wanted to be creative with what's in my fridge without ruining a dish with a bad combination. | A recommender based on how often ingredients appear together in recipes. I'm now building a hand-labelled test set to measure how good the suggestions really are. |
+| [Pilzdex](https://txmnzia.github.io/pilz-pokedex/) | Mushroom picking is risky, and I had no simple way to identify and keep track of what I found in nature. | A field journal where I snap a photo and get an identification, even offline. I built a golden dataset of 4k photos the models had never seen and benchmarked 4 image recognition models on precision, recall and safety. |
+| [Pilzmap](https://txmnzia.github.io/pilzmap/) | As a new Berliner, I haven't met anyone who could share their mushroom spots with me. Each of my forest trips was a gamble. | I created a map showing where mushrooms are likely to appear by combining public datasets on tree species, soil, and humidity. I built the data pipeline and validated it against 27k real sightings, so now I only go where the odds are high. |
+| [Flavour Pairing](https://txmnzia.github.io/flavour-pairing) | I wanted to be creative when cooking with the ingredients in my fridge, without ruining a dish with a bad combination. | A recommender based on th best pairing of ingredients, computed on 1M recipes co-occurrence. I'm now building a hand-labelled test set to measure how good the suggestions are. |
 | [Eki Stamp Map](https://txmnzia.github.io/eki-stamp-tracker/) | Japan's station stamps are only listed on long Japanese web pages, and I lost track of which ones I had and which lines I'd ridden. | One map of every stamp station and my own collection. I scraped and cleaned the data myself, and automated data quality checks catch missing or broken data on every change. |
-| [Financial Planner](https://txmnzia.github.io/fire-planner/) | Generic financial planners couldn't take my real situation into account, and I didn't trust them for big life decisions. | A planner with all my personal parameters and realistic assumptions. It simulates thousands of possible market histories to show the range of outcomes, and every calculation is covered by unit tests. |
-| [Fog of War](https://txmnzia.github.io/FogOfWar/) | My travel history is split across Google Timeline and Strava, and no map shows what's left to explore. | Combines both into one map that stays dark where I haven't been yet. |
-| [Travel Map](https://txmnzia.github.io/travel-map) | My family isn't tech savvy and couldn't follow my road trips. | Draw the route and get a short, light video of it on a simple map that anyone can watch. |
+| [Financial Planner](https://txmnzia.github.io/fire-planner/) | Generic financial planners couldn't take my real situation into account, and I didn't trust them for big life decisions. | A planner with all my personal parameters and realistic assumptions. It simulates thousands of possible market histories to show the range of outcomes, and every calculation is covered by strong consistency tests. |
+| [Fog of War](https://txmnzia.github.io/FogOfWar/) | I wanted to motivate myself to explore more of my surroundings and discover new areas in my country. | I gamified my GPS data from sources like Strava and Google Maps to create a video game-like map, with unexplored regions and achievements. |
+| [Travel Map](https://txmnzia.github.io/travel-map) | Not all my relatives are tech-savvy enough to follow my road trips online. | I created this app where one can draw their itinerary on a map and turn it into a short, playful video to send to anyone |
 
 ## What I learned
 
