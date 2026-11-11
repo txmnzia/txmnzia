@@ -1,8 +1,8 @@
 # Hi, I'm Sam
 
-I'm a lead product manager working on data and AI/LM products.
+I'm a product manager working on data and AI/LM products.
 
-In my free time I build apps for problems I run into myself. I run each one like a product team made of agents: they help me research the problem, brainstorm solutions, design the UX, collect and process the data, write the code, test the quality, and ship. I set the direction, coordinate the different workstreams and ensure that the solution is right.
+In my free time I build apps for problems I encounter in my life. I run each one like a product team made of agents: they help me research the problem, brainstorm solutions, design the UX, process the data, write the code and test quality. I set the direction, coordinate the different workstreams and ensure that the solution is good.
 
 Everything is live at [txmnzia.github.io](https://txmnzia.github.io).
 
